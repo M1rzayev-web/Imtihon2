@@ -11,6 +11,7 @@ header {
     padding-left: 165px;
     background-color: white;
     display: flex;
+    z-index: 1;
     position: fixed;
     &__logo {
       width: 10%;

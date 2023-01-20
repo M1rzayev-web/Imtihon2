@@ -23,6 +23,7 @@
   padding-left: 165px;
   background-color: white;
   display: flex;
+  z-index: 1;
   position: fixed;
 }
 .continer header .navbar__logo {
