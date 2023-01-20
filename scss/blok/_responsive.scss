@@ -1,0 +1,243 @@
+@media (max-width: 768px) {
+    .continer {
+        width: 100%;
+
+        header {
+            padding: 0;
+
+            .navbar {
+                width: 100%;
+                position: relative;
+                padding: 0;
+                margin: 0;
+
+                &__logo {
+                    width: 20%;
+                }
+
+                &__list {
+                    width: 40%;
+                }
+
+                &__botton {
+                    width: 40%;
+
+                    .btn {
+                        margin-left: 27%;
+                    }
+                }
+            }
+        }
+
+        main {
+            width: 100%;
+            height: 4000px;
+
+            .section1 {
+                width: 100%;
+
+                &__text {
+                    width: 90%;
+
+                    padding: 0;
+                    text-align: center;
+
+                    h2 {
+                        width: 80%;
+                        margin: 0 auto;
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+                &__text2 {
+                    flex-wrap: wrap;
+                    align-items: center;
+                    width: 100%;
+
+                    .text2-p {
+                        display: none;
+                    }
+
+                    .text2-p2 {
+                        width: 70%;
+                        margin-left: 16%;
+                        text-align: center;
+                        margin-top: 1%;
+                    }
+
+                    .text2-img {
+                        margin-left: -100px;
+                    }
+                }
+            }
+
+            .section2 {
+                width: 100%;
+                padding: 150px 0 0 0;
+
+                &__list {
+                    flex-wrap: wrap;
+                    padding: 0 10%;
+
+                    li {
+                        margin: 15px;
+                        width: 100%;
+
+                        h4 {
+                            margin-top: -16%;
+                            margin-left: 40%;
+                        }
+
+                        p {
+                            margin-left: 40%;
+                        }
+                    }
+                }
+
+                &__list2 {
+                    flex-direction: column-reverse;
+
+                    .list-item22 {
+                        width: 100%;
+
+                        h3 {
+                            width: 80%;
+                            margin: 0 auto;
+                            text-align: center;
+                        }
+
+                        p {
+                            width: 80%;
+                            margin: 0 auto;
+                            text-align: center;
+                            margin-top: 2%;
+                        }
+
+                        .btn2 {
+                            margin-left: 38%;
+                            margin-top: 3%;
+                        }
+                    }
+
+                    .list-item23 {
+                        width: 100%;
+
+                        .group-icon {
+                            //   display: none;
+                            margin: 0;
+                            margin-top: 45%;
+                        }
+
+                        .group-img {
+                            margin-top: 3%;
+                            margin-left: 20%;
+                        }
+                    }
+                }
+
+                &__list3 {
+                    width: 100%;
+                    flex-direction: column;
+
+                    .list-item33 {
+                        width: 100%;
+
+                        h3 {
+                            width: 70%;
+                            margin: 0 auto;
+                            text-align: center;
+                        }
+
+                        p {
+                            width: 70%;
+                            margin: 0 auto;
+                            text-align: center;
+                        }
+
+                        .btn3 {
+                            margin-left: 38%;
+                            margin-top: 3%;
+                        }
+                    }
+                }
+
+                &__list4 {
+                    width: 100%;
+                    flex-direction: column-reverse;
+
+                    .list-item42 {
+                        width: 100%;
+
+                        h3 {
+                            width: 70%;
+                            margin: 0 auto;
+                            text-align: center;
+                        }
+
+                        p {
+                            width: 70%;
+                            text-align: center;
+                            margin: 0 auto;
+                        }
+
+                        .btn4 {
+                            margin-left: 38%;
+                            margin-top: 3%;
+                        }
+                    }
+
+                    .list-item43 {
+                        .group-icon3 {
+                            margin-left: 25%;
+                            width: 100%;
+                            margin-top: 12%;
+                        }
+
+                        .group-img3 {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        footer {
+            width: 100%;
+
+            .footer__list {
+                width: 100%;
+                padding: 0;
+                flex-wrap: wrap;
+
+                .footer-item1 {
+                    width: 100%;
+
+                    h3 {
+                        width: 70%;
+                        margin: 0 auto;
+                        text-align: center;
+                    }
+                }
+                .footer-item2{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+            .footer__list2{
+                width: 100%;
+                padding: 0 20px;
+                .footer__navbar-logo{
+                    width: 20%;
+                }
+                .footer__navbar-link{
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}
