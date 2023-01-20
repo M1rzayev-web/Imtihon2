@@ -1,0 +1,213 @@
+main {
+  width: 100%;
+  height: 2700px;
+
+  .section1 {
+    width: 100%;
+    height: 200px;
+    // filter: grayscale(100%);
+    background-image: url("/images-careers/careers.png");
+  }
+
+  .section2 {
+    width: 100%;
+    padding: 150px 165px 0 165px;
+
+    &__list2 {
+      width: 100%;
+      display: flex;
+      margin-top: 100px;
+
+      .list-item22 {
+        width: 40%;
+
+        h3 {
+          width: 445px;
+          font-family: 'Space Mono';
+          font-size: 45px;
+          color: #495567;
+        }
+
+        p {
+          font-family: 'Lexend Deca';
+          font-size: 15px;
+          margin: 15px 0 30px 0;
+        }
+
+        .btn5 {
+          width: 180px;
+          height: 53px;
+          border: none;
+          background-color: #fcb72b;
+          color: white;
+          font-family: 'Space Mono';
+          font-size: 15px;
+        }
+
+        .btn5:hover {
+          background-color: transparent;
+          color: #fcb72b;
+          border: 3px solid #fcb72b;
+        }
+      }
+
+      .list-item23 {
+        width: 60%;
+
+        .group-icon {
+          margin-left: 90px;
+          margin-top: 180px;
+          position: absolute;
+        }
+
+        .group-img {
+          margin-top: -100px;
+          margin-left: 250px;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    &__list3 {
+      width: 100%;
+      display: flex;
+      margin-top: 150px;
+
+      .list-item33 {
+        width: 40%;
+        margin-top: 100px;
+
+        h3 {
+          width: 445px;
+          font-family: 'Space Mono';
+          font-size: 45px;
+          color: #495567;
+        }
+
+        p {
+          font-family: 'Lexend Deca';
+          font-size: 15px;
+          margin: 15px 0 30px 0;
+        }
+      }
+
+      .list-item32 {
+        width: 60%;
+
+        .group-icon2 {
+          margin-left: -560px;
+          position: absolute;
+        }
+
+        .group-img2 {
+          border-radius: 50%;
+        }
+      }
+    }
+
+    h2 {
+      margin-top: 80px;
+      width: 100%;
+      text-align: center;
+      font-family: 'Space Mono';
+      font-size: 48px;
+      color: #495567;
+
+    }
+
+    &__list4 {
+      width: 100%;
+      display: flex;
+      height: 550px;
+      margin-top: 100px;
+
+      li {
+        width: 350px;
+
+        img {
+          display: flex;
+          align-items: center;
+        }
+
+        .list4-img1 {
+          border-radius: 50%;
+        }
+
+        .list4-img2 {
+          margin-top: -50px;
+        }
+
+        h4 {
+          font-family: 'Space Mono';
+          font-size: 24px;
+          width: 100%;
+          text-align: center;
+          color: #495567;
+          margin: 27px 0;
+        }
+
+        p {
+          width: 100%;
+          text-align: center;
+          font-size: 15;
+          font-family: 'Lexend Deca';
+          color: #939CAA;
+        }
+
+      }
+    }
+
+    &__list5 {
+      width: 100%;
+
+      ul {
+        display: flex;
+        align-items: center;
+
+        width: 100%;
+        margin-top: 25px;
+        height: 128px;
+        padding: 40px;
+        background-color:
+          #F2F5F9;
+
+        .list5-texth4p {
+          width: 80%;
+
+          h4 {
+            font-family: 'Space Mono';
+            font-size: 24px;
+            color: #495567;
+          }
+
+          p {
+            font-family: 'Lexend Deca';
+            font-size: 15px;
+            color: #495567;
+          }
+
+        }
+
+        .list5-btn8 {
+          width: 20%;
+
+          .btn8 {
+            width: 180px;
+            height: 53px;
+            background-color: #fcb72b;
+            color: white;
+            border: none;
+          }
+
+          .btn8:hover {
+            background-color: transparent;
+            color: #fcb72b;
+            border: 3px solid #fcb72b;
+          }
+        }
+
+      }
+
+    }
+  }
+}

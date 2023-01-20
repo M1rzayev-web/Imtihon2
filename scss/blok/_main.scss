@@ -43,6 +43,20 @@ main {
         color: white;
         font-size: 15px;
         margin-left: -197px;
+        .btn77 {
+          width: 180px;
+          height: 53px;
+          border: none;
+          background-color: #fcb72b;
+          color: white;
+          font-family: 'Space Mono';
+          font-size: 15px;
+        }
+        .btn77:hover {
+          background-color: transparent;
+          color: #fcb72b;
+          border: 3px solid #fcb72b;
+        }
       }
 
       .text2-img {

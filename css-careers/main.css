@@ -15,16 +15,16 @@
   padding: 0 165px;
 }
 .continer header .navbar {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   width: 1440px;
   height: 96px;
-  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   margin-top: -5px;
   margin-left: -165px;
   padding-left: 165px;
   background-color: white;
-  position: fixed;
+  display: flex;
   z-index: 1;
+  position: fixed;
 }
 .continer header .navbar__logo {
   width: 10%;
@@ -65,98 +65,21 @@
 }
 .continer main {
   width: 100%;
-  height: 3000px;
+  height: 2700px;
 }
 .continer main .section1 {
   width: 100%;
-  height: 650px;
-  background-image: url("/images/bg img.png");
-}
-.continer main .section1__text {
-  width: 100%;
-  height: 160px;
-  padding: 0 165px;
-}
-.continer main .section1__text h2 {
-  padding-top: 157px;
-  width: 500px;
-  height: 112px;
-  font-size: 54px;
-  margin-left: 0;
-  color: white;
-  font-family: "Space Mono";
-}
-.continer main .section1__text2 {
-  width: 100%;
-  padding-top: 157px;
-  display: flex;
-}
-.continer main .section1__text2 .text2-p {
-  border-bottom: 15px solid #FCB72B;
-  width: 203px;
-  height: 15px;
-  margin-top: 30px;
-  margin-left: 0;
-}
-.continer main .section1__text2 .text2-p2 {
-  font-family: "Lexend Deca";
-  width: 350px;
-  height: 100px;
-  color: white;
-  font-size: 15px;
-  margin-left: -197px;
-}
-.continer main .section1__text2 .text2-p2 .btn77 {
-  width: 180px;
-  height: 53px;
-  border: none;
-  background-color: #fcb72b;
-  color: white;
-  font-family: "Space Mono";
-  font-size: 15px;
-}
-.continer main .section1__text2 .text2-p2 .btn77:hover {
-  background-color: transparent;
-  color: #fcb72b;
-  border: 3px solid #fcb72b;
-}
-.continer main .section1__text2 .text2-img {
-  margin-left: -190px;
-  margin-top: 30px;
+  height: 200px;
+  background-image: url("/images-careers/careers.png");
 }
 .continer main .section2 {
   width: 100%;
   padding: 150px 165px 0 165px;
-  border: 1ppx solid red;
-}
-.continer main .section2__list {
-  width: 100%;
-  display: flex;
-  height: 400px;
-}
-.continer main .section2__list li {
-  width: 350px;
-  margin-left: 0;
-}
-.continer main .section2__list li img {
-  width: 96px;
-  height: 96px;
-}
-.continer main .section2__list li h4 {
-  font-family: "Space Mono";
-  font-size: 24px;
-  margin-top: 35px;
-  color: #495567;
-}
-.continer main .section2__list li p {
-  font-family: "Lexend Deca";
-  margin-top: 15px;
-  color: #939caa;
 }
 .continer main .section2__list2 {
   width: 100%;
   display: flex;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .continer main .section2__list2 .list-item22 {
   width: 40%;
@@ -172,7 +95,7 @@
   font-size: 15px;
   margin: 15px 0 30px 0;
 }
-.continer main .section2__list2 .list-item22 .btn2 {
+.continer main .section2__list2 .list-item22 .btn5 {
   width: 180px;
   height: 53px;
   border: none;
@@ -181,7 +104,7 @@
   font-family: "Space Mono";
   font-size: 15px;
 }
-.continer main .section2__list2 .list-item22 .btn2:hover {
+.continer main .section2__list2 .list-item22 .btn5:hover {
   background-color: transparent;
   color: #fcb72b;
   border: 3px solid #fcb72b;
@@ -191,12 +114,13 @@
 }
 .continer main .section2__list2 .list-item23 .group-icon {
   margin-left: 90px;
-  margin-top: 200px;
+  margin-top: 180px;
   position: absolute;
 }
 .continer main .section2__list2 .list-item23 .group-img {
   margin-top: -100px;
   margin-left: 250px;
+  border-radius: 50%;
 }
 .continer main .section2__list3 {
   width: 100%;
@@ -205,6 +129,7 @@
 }
 .continer main .section2__list3 .list-item33 {
   width: 40%;
+  margin-top: 100px;
 }
 .continer main .section2__list3 .list-item33 h3 {
   width: 445px;
@@ -217,20 +142,6 @@
   font-size: 15px;
   margin: 15px 0 30px 0;
 }
-.continer main .section2__list3 .list-item33 .btn3 {
-  width: 180px;
-  height: 53px;
-  border: none;
-  background-color: #fcb72b;
-  color: white;
-  font-family: "Space Mono";
-  font-size: 15px;
-}
-.continer main .section2__list3 .list-item33 .btn3:hover {
-  background-color: transparent;
-  color: #fcb72b;
-  border: 3px solid #fcb72b;
-}
 .continer main .section2__list3 .list-item32 {
   width: 60%;
 }
@@ -238,51 +149,90 @@
   margin-left: -560px;
   position: absolute;
 }
+.continer main .section2__list3 .list-item32 .group-img2 {
+  border-radius: 50%;
+}
+.continer main .section2 h2 {
+  margin-top: 80px;
+  width: 100%;
+  text-align: center;
+  font-family: "Space Mono";
+  font-size: 48px;
+  color: #495567;
+}
 .continer main .section2__list4 {
   width: 100%;
   display: flex;
-  margin-top: 150px;
+  height: 550px;
+  margin-top: 100px;
 }
-.continer main .section2__list4 .list-item42 {
-  width: 40%;
+.continer main .section2__list4 li {
+  width: 350px;
 }
-.continer main .section2__list4 .list-item42 h3 {
-  width: 445px;
+.continer main .section2__list4 li img {
+  display: flex;
+  align-items: center;
+}
+.continer main .section2__list4 li .list4-img1 {
+  border-radius: 50%;
+}
+.continer main .section2__list4 li .list4-img2 {
+  margin-top: -50px;
+}
+.continer main .section2__list4 li h4 {
   font-family: "Space Mono";
-  font-size: 45px;
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+  color: #495567;
+  margin: 27px 0;
+}
+.continer main .section2__list4 li p {
+  width: 100%;
+  text-align: center;
+  font-size: 15;
+  font-family: "Lexend Deca";
+  color: #939CAA;
+}
+.continer main .section2__list5 {
+  width: 100%;
+}
+.continer main .section2__list5 ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 25px;
+  height: 128px;
+  padding: 40px;
+  background-color: #F2F5F9;
+}
+.continer main .section2__list5 ul .list5-texth4p {
+  width: 80%;
+}
+.continer main .section2__list5 ul .list5-texth4p h4 {
+  font-family: "Space Mono";
+  font-size: 24px;
   color: #495567;
 }
-.continer main .section2__list4 .list-item42 p {
+.continer main .section2__list5 ul .list5-texth4p p {
   font-family: "Lexend Deca";
   font-size: 15px;
-  margin: 15px 0 30px 0;
+  color: #495567;
 }
-.continer main .section2__list4 .list-item42 .btn4 {
+.continer main .section2__list5 ul .list5-btn8 {
+  width: 20%;
+}
+.continer main .section2__list5 ul .list5-btn8 .btn8 {
   width: 180px;
   height: 53px;
-  border: none;
   background-color: #fcb72b;
   color: white;
-  font-family: "Space Mono";
-  font-size: 15px;
+  border: none;
 }
-.continer main .section2__list4 .list-item42 .btn4:hover {
+.continer main .section2__list5 ul .list5-btn8 .btn8:hover {
   background-color: transparent;
   color: #fcb72b;
   border: 3px solid #fcb72b;
-}
-.continer main .section2__list4 .list-item43 {
-  width: 60%;
-}
-.continer main .section2__list4 .list-item43 .group-icon3 {
-  margin-left: 520px;
-  position: absolute;
-  margin-top: -50px;
-}
-.continer main .section2__list4 .list-item43 .group-img3 {
-  margin-top: -100px;
-  margin-left: 250px;
-  border-radius: 50%;
 }
 .continer footer {
   width: 100%;

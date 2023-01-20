@@ -1,0 +1,103 @@
+main {
+  width: 100%;
+  height: 1300px;
+  .section1 {
+    width: 100%;
+    height: 200px;
+    // filter: grayscale(100%);
+    background-image: url("/images-location/location.png");
+
+    &__text {
+      width: 100%;
+      height: 160px;
+      padding: 0 165px;
+
+      h2 {
+        padding-top: 157px;
+        width: 500px;
+        height: 112px;
+        font-size: 54px;
+        margin-left: 0;
+        color: white;
+        font-family: 'Space Mono';
+      }
+    }
+
+    &__text2 {
+      width: 100%;
+      padding-top: 157px;
+      display: flex;
+
+      .text2-p {
+        border-bottom: 15px solid#FCB72B;
+        width: 203px;
+        height: 15px;
+        margin-top: 30px;
+        margin-left: 0;
+      }
+
+      .text2-p2 {
+        font-family: 'Lexend Deca';
+        width: 350px;
+        height: 100px;
+        color: white;
+        font-size: 15px;
+        margin-left: -197px;
+      }
+
+      .text2-img {
+        margin-left: -190px;
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .section2 {
+    width: 100%;
+    padding: 150px 165px 0 165px;
+    .section2__img{
+      width: 100%;
+      height: 543px;
+      li{
+        width: 100%;
+        height: 100%;
+      background-image: url("/images-location/bgimg.png");
+      }
+    }
+    .section2__text{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 140px;
+      li{
+        margin-left: 0;
+       h3{
+        font-family: 'Space Mono';
+        font-size: 48px;
+        color: #495567;
+        width: 351px;
+       }
+       p{
+        width: 450px;
+        font-family: 'Lexend Deca';
+        font-size: 15px;
+        color: 
+        #939CAA;
+       }
+       .btn {
+        width: 180px;
+        height: 53px;
+        background-color: #fcb72b;
+        color: white;
+        border: none;
+      }
+      .btn:hover {
+        background-color: transparent;
+        color: #fcb72b;
+        border: 3px solid #fcb72b;
+      }
+      }
+    }
+  }
+}
