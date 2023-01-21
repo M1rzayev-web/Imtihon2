@@ -66,6 +66,7 @@
 .continer main {
   width: 100%;
   height: 3000px;
+  overflow-x: hidden;
 }
 .continer main .section1 {
   width: 100%;
@@ -276,7 +277,7 @@
 }
 .continer main .section2__list4 .list-item43 .group-icon3 {
   margin-left: 520px;
-  position: absolute;
+  position: relative;
   margin-top: -50px;
 }
 .continer main .section2__list4 .list-item43 .group-img3 {
